@@ -31,10 +31,10 @@ app.get('/', (req, res) => {
   ]
   const subtitle =
     'Uma linguagem de modelagem para criação de página HTML utilizando JS'
-    
+
   res.render('pages/index', {
     qualitys: items,
-    subtitle: subtitle,
+    subtitle: subtitle
   })
 })
 
@@ -42,5 +42,5 @@ app.get('/sobre', (req, res) => {
   res.render('pages/about')
 })
 
-app.listen(8080)
+app.listen('https://gabrielrarodrigues.github.io/Project-NodeEJS/')
 console.log('listening on port 8080')
