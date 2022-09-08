@@ -42,5 +42,5 @@ app.get('/sobre', (req, res) => {
   res.render('pages/about')
 })
 
-app.listen('https://gabrielrarodrigues.github.io/Project-NodeEJS')
+app.listen('8080')
 console.log('listening on port 8080')
